@@ -1,3 +1,4 @@
+require('newrelic');
 const express = require('express');
 const router = express.Router();
 const { getMeta } = require('../model');
